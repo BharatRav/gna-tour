@@ -29,6 +29,8 @@ const SigninForm = ({ switchAuthState }) => {
         .required("password is required"),
     }),
     onSubmit: async (values) => {
+      alert("Server hasn't their, plz navigate the website only");
+      return;
       setErrorMessage(undefined);
       setIsLoginRequest(true);
       const { response, err } = await userApi.signin(values);
@@ -62,10 +64,7 @@ const SigninForm = ({ switchAuthState }) => {
             signinForm.touched.username &&
             signinForm.errors.username !== undefined
           }
-          helperText={
-            signinForm.touched.username &&
-            signinForm.errors.username
-          }
+          helperText={signinForm.touched.username && signinForm.errors.username}
         />
         <TextField
           type="password"
@@ -80,10 +79,7 @@ const SigninForm = ({ switchAuthState }) => {
             signinForm.touched.password &&
             signinForm.errors.password !== undefined
           }
-          helperText={
-            signinForm.touched.password &&
-            signinForm.errors.password
-          }
+          helperText={signinForm.touched.password && signinForm.errors.password}
         />
       </Stack>
       <LoadingButton
@@ -100,8 +96,11 @@ const SigninForm = ({ switchAuthState }) => {
         sign up
       </Button>
       {errorMessage && (
-
-      <Box sx={{marginTop:2}}><Alert severity="error" variant="outlined">{errorMessage}</Alert></Box>
+        <Box sx={{ marginTop: 2 }}>
+          <Alert severity="error" variant="outlined">
+            {errorMessage}
+          </Alert>
+        </Box>
       )}
     </Box>
   );

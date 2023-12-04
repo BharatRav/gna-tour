@@ -2,7 +2,6 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import heroImage from "../../assets/hero.jpg";
 
-import Typed from "react-typed";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {

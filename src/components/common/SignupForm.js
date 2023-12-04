@@ -38,6 +38,8 @@ const SignupForm = ({ switchAuthState }) => {
         .required("confirmPassword is required"),
     }),
     onSubmit: async (values) => {
+      alert("Server hasn't their, plz navigate the website only");
+      return;
       setErrorMessage(undefined);
       setIsLoginRequest(true);
       const { response, err } = await userApi.signup(values);
