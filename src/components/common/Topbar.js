@@ -132,6 +132,7 @@ const Topbar = () => {
                   color: "black",
                   backgroundColor: "white",
                   "&:hover": { color: "white" },
+                  fontSize: { xs: "8px", md: "12px" },
                 }}
               >
                 Become An Expert
@@ -142,6 +143,7 @@ const Topbar = () => {
                   onClick={() => dispatch(setAuthModalOpen(true))}
                   sx={{
                     border: "2px solid white",
+                    fontSize: { xs: "8px", md: "12px" },
                   }}
                 >
                   sign in/register
