@@ -3,20 +3,21 @@ import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import ItemRating from "./ItemRating";
 
-const TourItem = ({
-  img,
-  liked,
-  duration,
-  category,
-  title,
-  desc,
-  safety,
-  cancellation,
-  rating,
-  review,
-  price,
-  priceFactor,
-}) => {
+const TourItem = ({ data }) => {
+  const {
+    img,
+    liked,
+    duration,
+    category,
+    title,
+    desc,
+    safety,
+    cancellation,
+    rating,
+    review,
+    price,
+    priceFactor,
+  } = data;
   return (
     <Box
       sx={{

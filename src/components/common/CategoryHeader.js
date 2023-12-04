@@ -4,6 +4,7 @@ import {
   LocationOnOutlined,
   Search,
 } from "@mui/icons-material";
+import { LoadingButton } from "@mui/lab";
 import {
   Box,
   Button,
@@ -14,7 +15,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 const InputHeader = ({ icon, text }) => {
   return (
     <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -25,6 +26,18 @@ const InputHeader = ({ icon, text }) => {
 };
 
 const CategoryHeader = () => {
+  const [location, setLocation] = useState("");
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+  const [tourType, setTourType] = useState({ adults: 0, children: 0, room: 0 });
+  const [isLoginRequest, setIsLoadingRequest] = useState(false);
+
+  const handleSearch = () => {
+    setIsLoadingRequest(true);
+    setTimeout(() => {
+      setIsLoadingRequest(false);
+    }, [3000]);
+  };
   return (
     <Container>
       <Paper square={true} sx={{ backgroundImage: "unset", padding: "2rem" }}>
@@ -56,6 +69,8 @@ const CategoryHeader = () => {
                 placeholder="Where are you going?"
                 variant="outlined"
                 size="small"
+                value={location}
+                onChange={(e) => setLocation(e.target.value)}
               />
             </Box>
             <Box
@@ -72,16 +87,25 @@ const CategoryHeader = () => {
               />
               <TextField
                 type="date"
-                placeholder="October 15 - november 12?"
+                placeholder="checkIn"
                 variant="outlined"
                 size="small"
+                value={checkIn}
+                onChange={(e) => {
+                  setCheckIn(e.target.value);
+                }}
               />
-              {/* <TextField
-                type="date"
-                placeholder="October 15 - november 12?"
-                variant="outlined"
-                size="small"
-              /> */}
+              {checkIn && (
+                <TextField
+                  type="date"
+                  placeholder="Checkout"
+                  variant="outlined"
+                  size="small"
+                  onChange={(e) => {
+                    setCheckOut(e.target.value);
+                  }}
+                />
+              )}
             </Box>
             <Box
               sx={{
@@ -105,7 +129,7 @@ const CategoryHeader = () => {
                 justifyContent: "center",
               }}
             >
-              <Button
+              <LoadingButton
                 variant="contained"
                 size="large"
                 sx={{
@@ -113,9 +137,11 @@ const CategoryHeader = () => {
                   color: "primary.buttonColor",
                 }}
                 startIcon={<Search />}
+                loading={isLoginRequest}
+                onClick={handleSearch}
               >
                 Search
-              </Button>
+              </LoadingButton>
             </Box>
           </Box>
         </Stack>

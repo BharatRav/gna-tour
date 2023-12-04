@@ -124,7 +124,12 @@ const Topbar = () => {
             {/* main menu */}
 
             {/* user menu */}
-            <Stack spacing={3} direction="row" alignItems="center">
+            <Stack
+              spacing={3}
+              direction="row"
+              alignItems="center"
+              paddingLeft={4}
+            >
               <Button
                 variant="contained"
                 onClick={() => dispatch(setAuthModalOpen(true))}

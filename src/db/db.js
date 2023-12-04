@@ -12,7 +12,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/landmark-camera-architecture-view-woman_1150-1218.jpg?w=996&t=st=1701687693~exp=1701688293~hmac=0871803249c3432c7b687a9e7f6a3a91bf168c3fc501c490f879f7673a72d3b7",
@@ -27,7 +27,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "Spanish",
+    languages: "Spanish",
   },
   {
     img: "https://img.freepik.com/free-photo/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand_335224-895.jpg?w=996&t=st=1701687742~exp=1701688342~hmac=300e4b5c7708019188e0fd7501f5dbceeeeeb3e280421c023b4e7619994c2afb",
@@ -42,7 +42,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "French",
+    languages: "French",
   },
   {
     img: "https://img.freepik.com/free-photo/women-tourists-holding-man-s-hand-leading-him-ho-kham-luang-northern-thai-style-royal-flora-ratchaphruek-chiang-mai-thailand_335224-823.jpg?w=996&t=st=1701687789~exp=1701688389~hmac=7014a9748ca2284ec0a7529faed1dfb25bca0bfa7bb1f4037172df5fdbb13f4b",
@@ -57,7 +57,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=996&t=st=1701688117~exp=1701688717~hmac=17a56b9dc3d65290209c38a742aeac68c1113f9d5ab643de75e4dd1a5992e497",
@@ -72,7 +72,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "Turkish",
+    languages: "Turkish",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -87,7 +87,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -102,7 +102,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "Turkish",
+    languages: "Turkish",
   },
   {
     img: "https://img.freepik.com/premium-photo/india-gate-sunrise-famous-landmark-new-dehli-no-people_400112-353.jpg?w=996",
@@ -117,7 +117,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?w=996&t=st=1701685884~exp=1701686484~hmac=09b1686735528c6b3fca994b3166671490137afb06b25dfa580f30301077252d",
@@ -132,7 +132,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/landmark-camera-architecture-view-woman_1150-1218.jpg?w=996&t=st=1701687693~exp=1701688293~hmac=0871803249c3432c7b687a9e7f6a3a91bf168c3fc501c490f879f7673a72d3b7",
@@ -147,7 +147,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand_335224-895.jpg?w=996&t=st=1701687742~exp=1701688342~hmac=300e4b5c7708019188e0fd7501f5dbceeeeeb3e280421c023b4e7619994c2afb",
@@ -162,7 +162,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/women-tourists-holding-man-s-hand-leading-him-ho-kham-luang-northern-thai-style-royal-flora-ratchaphruek-chiang-mai-thailand_335224-823.jpg?w=996&t=st=1701687789~exp=1701688389~hmac=7014a9748ca2284ec0a7529faed1dfb25bca0bfa7bb1f4037172df5fdbb13f4b",
@@ -177,7 +177,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=996&t=st=1701688117~exp=1701688717~hmac=17a56b9dc3d65290209c38a742aeac68c1113f9d5ab643de75e4dd1a5992e497",
@@ -192,7 +192,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "French",
+    languages: "French",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -207,7 +207,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -222,7 +222,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/india-gate-sunrise-famous-landmark-new-dehli-no-people_400112-353.jpg?w=996",
@@ -237,7 +237,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?w=996&t=st=1701685884~exp=1701686484~hmac=09b1686735528c6b3fca994b3166671490137afb06b25dfa580f30301077252d",
@@ -252,7 +252,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "Spanish",
+    languages: "Spanish",
   },
   {
     img: "https://img.freepik.com/free-photo/landmark-camera-architecture-view-woman_1150-1218.jpg?w=996&t=st=1701687693~exp=1701688293~hmac=0871803249c3432c7b687a9e7f6a3a91bf168c3fc501c490f879f7673a72d3b7",
@@ -267,7 +267,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand_335224-895.jpg?w=996&t=st=1701687742~exp=1701688342~hmac=300e4b5c7708019188e0fd7501f5dbceeeeeb3e280421c023b4e7619994c2afb",
@@ -282,7 +282,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/women-tourists-holding-man-s-hand-leading-him-ho-kham-luang-northern-thai-style-royal-flora-ratchaphruek-chiang-mai-thailand_335224-823.jpg?w=996&t=st=1701687789~exp=1701688389~hmac=7014a9748ca2284ec0a7529faed1dfb25bca0bfa7bb1f4037172df5fdbb13f4b",
@@ -297,7 +297,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=996&t=st=1701688117~exp=1701688717~hmac=17a56b9dc3d65290209c38a742aeac68c1113f9d5ab643de75e4dd1a5992e497",
@@ -312,7 +312,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -327,7 +327,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -342,7 +342,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/india-gate-sunrise-famous-landmark-new-dehli-no-people_400112-353.jpg?w=996",
@@ -357,7 +357,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?w=996&t=st=1701685884~exp=1701686484~hmac=09b1686735528c6b3fca994b3166671490137afb06b25dfa580f30301077252d",
@@ -372,7 +372,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/landmark-camera-architecture-view-woman_1150-1218.jpg?w=996&t=st=1701687693~exp=1701688293~hmac=0871803249c3432c7b687a9e7f6a3a91bf168c3fc501c490f879f7673a72d3b7",
@@ -387,7 +387,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand_335224-895.jpg?w=996&t=st=1701687742~exp=1701688342~hmac=300e4b5c7708019188e0fd7501f5dbceeeeeb3e280421c023b4e7619994c2afb",
@@ -402,7 +402,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/women-tourists-holding-man-s-hand-leading-him-ho-kham-luang-northern-thai-style-royal-flora-ratchaphruek-chiang-mai-thailand_335224-823.jpg?w=996&t=st=1701687789~exp=1701688389~hmac=7014a9748ca2284ec0a7529faed1dfb25bca0bfa7bb1f4037172df5fdbb13f4b",
@@ -417,7 +417,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=996&t=st=1701688117~exp=1701688717~hmac=17a56b9dc3d65290209c38a742aeac68c1113f9d5ab643de75e4dd1a5992e497",
@@ -432,7 +432,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -447,7 +447,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/passengersairplaneflyingabovegatewayofindiaduringsunrise_271231-1.jpg?w=996",
@@ -462,7 +462,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
   {
     img: "https://img.freepik.com/premium-photo/india-gate-sunrise-famous-landmark-new-dehli-no-people_400112-353.jpg?w=996",
@@ -477,7 +477,7 @@ const AllData = [
     review: "3014",
     price: "US$72",
     priceFactor: "per adult",
-    language: "English",
+    languages: "English",
   },
 ];
 export default AllData;
