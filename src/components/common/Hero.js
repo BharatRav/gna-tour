@@ -34,7 +34,11 @@ const Hero = () => {
         >
           <Typography
             variant="h1"
-            sx={{ fontSize: "800", textAlign: "center", color: "primary.main" }}
+            sx={{
+              fontSize: { xs: "300", md: "800" },
+              textAlign: "center",
+              color: "primary.main",
+            }}
           >
             Travel,
             <br /> Enjoy and live a new full life

@@ -59,7 +59,7 @@ const TourItem = ({
           display: "flex",
           justifyContent: "center",
           flexDirection: "column",
-          alignItems: "flex-end",
+          alignItems: { xs: "flex-start", md: "flex-end" },
         }}
       >
         <Box>
