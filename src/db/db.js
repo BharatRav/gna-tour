@@ -13,11 +13,12 @@ const AllData = [
     price: "US$72",
     priceFactor: "per adult",
     languages: "English",
+    location: "India",
   },
   {
     img: "https://img.freepik.com/free-photo/landmark-camera-architecture-view-woman_1150-1218.jpg?w=996&t=st=1701687693~exp=1701688293~hmac=0871803249c3432c7b687a9e7f6a3a91bf168c3fc501c490f879f7673a72d3b7",
     liked: false,
-    duration: "16+ hours",
+    duration: "16",
     category: "Full-dayTours",
     title: "Stonehenge,Windsor Castle and Bath with Pub Lunch in Lacock",
     desc: "Westminster Borough,London",
@@ -480,4 +481,5 @@ const AllData = [
     languages: "English",
   },
 ];
+
 export default AllData;
