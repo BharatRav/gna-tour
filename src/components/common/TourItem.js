@@ -1,12 +1,13 @@
 import { ArrowOutward } from "@mui/icons-material";
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
+import ItemRating from "./ItemRating";
 
 const TourItem = ({
   img,
   liked,
   duration,
-  type,
+  category,
   title,
   desc,
   safety,
@@ -41,7 +42,7 @@ const TourItem = ({
       >
         <Box>
           <Typography variant="body1">
-            {duration} - {type}
+            {duration} - {category}
           </Typography>
           <Typography variant="h6">{title}</Typography>
           <Typography variant="body1">{desc}</Typography>
@@ -63,6 +64,7 @@ const TourItem = ({
       >
         <Box>
           {/* {rating} */}
+          <ItemRating rating={rating} />
           <Typography
             variant="body1"
             sx={{ textAlign: "end" }}

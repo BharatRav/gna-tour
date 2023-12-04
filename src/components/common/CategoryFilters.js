@@ -49,6 +49,10 @@ const CategoryFilters = () => {
       title: "Languages",
       types: ["English", "Spanish", "Frensh", "Turkish"],
     },
+    {
+      title: "Rating",
+      types: ["5-star ", "4-star & Above", "3-star & Above", "2-star & Above"],
+    },
   ];
   return (
     <Box>
