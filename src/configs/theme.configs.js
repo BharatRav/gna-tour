@@ -14,12 +14,12 @@ const themeConfigs = {
             primary: {
               main: "#14357C",
               contrastText: "#ffffff",
-              select: colors.blue['900'],
+              select: colors.blue["900"],
             },
             secondary: {
               main: "#ffffff",
               contrastText: "#ffffff",
-              select: colors.blue['900'],
+              select: colors.blue["900"],
             },
             background: {
               default: "#000000",
@@ -29,11 +29,11 @@ const themeConfigs = {
         : {
             primary: {
               main: "#14357C",
-              select: colors.blue['900'],
+              select: colors.blue["900"],
             },
             secondary: {
               main: "#f44336",
-              select: colors.blue['900'],
+              select: colors.blue["900"],
             },
             background: {
               default: colors.grey["100"],
