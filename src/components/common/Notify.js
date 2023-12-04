@@ -9,7 +9,9 @@ const Notify = () => {
     >
       <Stack
         alignItems={"center"}
-        justifyContent={"space-between"}
+        paddingY={"15px"}
+        justifyContent={"space-around"}
+        gap="40px"
         direction={{ xs: "column", md: "row" }}
         sx={{ height: "max-content" }}
       >
@@ -31,9 +33,35 @@ const Notify = () => {
             </Typography>
           </Box>
         </Box>
-        <Box>
-          <TextField placeholder="Your Email" />
-          <Button>Subscribe</Button>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "10px",
+          }}
+        >
+          <TextField
+            fullWidth
+            placeholder="Your Email"
+            size="small"
+            sx={{
+              border: "1px solid white",
+              borderRadius: "5px",
+              color: "white",
+            }}
+          />
+          <Button
+            variant="contained"
+            size="large"
+            sx={{
+              backgroundColor: "primary.buttonBackground",
+              color: "primary.buttonColor",
+              "& :placeholder": { color: "white" },
+            }}
+          >
+            Subscribe
+          </Button>
         </Box>
       </Stack>
     </Box>

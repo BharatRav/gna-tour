@@ -12,9 +12,11 @@ const themeConfigs = {
       mode === themeModes.dark
         ? {
             primary: {
-              main: "#14357C",
+              main: "#14357B",
               contrastText: "#ffffff",
               select: colors.blue["900"],
+              buttonBackground: "#3654D6",
+              buttonColor: "white",
             },
             secondary: {
               main: "#ffffff",
@@ -28,8 +30,10 @@ const themeConfigs = {
           }
         : {
             primary: {
-              main: "#14357C",
+              main: "#14357B",
               select: colors.blue["900"],
+              buttonBackground: "#3654D6",
+              buttonColor: "white",
             },
             secondary: {
               main: "#f44336",
