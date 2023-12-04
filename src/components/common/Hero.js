@@ -35,7 +35,7 @@ const Hero = () => {
           <Typography
             variant="h1"
             sx={{
-              fontSize: { xs: "300", md: "800" },
+              fontSize: { xs: "48px", md: "80px" },
               textAlign: "center",
               color: "primary.main",
             }}
